@@ -1,13 +1,13 @@
-<div align="left">
-  <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Image 1" width="75" style="margin-right: 20px;">
-  <img src="https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png" alt="Image 2" width="75" style="margin-right: 20px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="Image 2" width="75" style="margin-right: 20px;">
-  <img src="https://archive.org/download/github.com-chakra-ui-chakra-ui_-_2020-02-15_09-44-46/cover.jpg" alt="Image 2" width="75" style="margin-right: 20px;">
-  <img src="https://logowik.com/content/uploads/images/firestore6915.jpg" alt="Image 3" width="75">
-</div>
 
-# Simple Healthcare Treatment Entry System
+# Simple Healthcare Treatment Entry System 
 OVERVIEW : Create a basic web application that includes a front-end form using React.js (any UI framework such as ChakraUI, Antd, etc.) and a back-end API. The application's purpose is for medical providers to input details of treatments and medications for patients.
+
+TECH STACK :
+1. NodeJs
+2. ExpressJs
+3. React
+3. Chakra UI
+4. Firestrore
 
 ## Setup and Installation
 To run the application in your local machine, follow these steps:
