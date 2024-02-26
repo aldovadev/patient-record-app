@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="[URL_of_image1.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3ANode.js_logo.svg&psig=AOvVaw1r9sTq0y-YBzRXltjY6jSg&ust=1709049896574000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOiFxJGxyYQDFQAAAAAdAAAAABAE)" alt="Image 1" width="200" style="margin-right: 20px;">
-  <img src="[URL_of_image2.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AExpressjs.png&psig=AOvVaw2j6gomdkC5hEFUKt5A0ebn&ust=1709049958639000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDyh6-xyYQDFQAAAAAdAAAAABAE)" alt="Image 2" width="200" style="margin-right: 20px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="Image 2" width="200" style="margin-right: 20px;">
-  <img src="https://archive.org/download/github.com-chakra-ui-chakra-ui_-_2020-02-15_09-44-46/cover.jpg" alt="Image 2" width="200" style="margin-right: 20px;">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogowik.com%2Ffirestore-vector-logo-6043.html&psig=AOvVaw0ri6PXbCjLRNmdPrPQZHCY&ust=1709050164196000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCVlJGyyYQDFQAAAAAdAAAAABAE" alt="Image 3" width="200">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3ANode.js_logo.svg&psig=AOvVaw1r9sTq0y-YBzRXltjY6jSg&ust=1709049896574000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOiFxJGxyYQDFQAAAAAdAAAAABAE" alt="Image 1" width="75" style="margin-right: 20px;">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AExpressjs.png&psig=AOvVaw2j6gomdkC5hEFUKt5A0ebn&ust=1709049958639000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDyh6-xyYQDFQAAAAAdAAAAABAE" alt="Image 2" width="75" style="margin-right: 20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="Image 2" width="75" style="margin-right: 20px;">
+  <img src="https://archive.org/download/github.com-chakra-ui-chakra-ui_-_2020-02-15_09-44-46/cover.jpg" alt="Image 2" width="75" style="margin-right: 20px;">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeklogo.com%2Fvector-logo%2F378891%2Ffirestore&psig=AOvVaw0ri6PXbCjLRNmdPrPQZHCY&ust=1709050164196000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCVlJGyyYQDFQAAAAAdAAAAABAQ" alt="Image 3" width="75">
 </div>
 
 # Simple Healthcare Treatment Entry System
