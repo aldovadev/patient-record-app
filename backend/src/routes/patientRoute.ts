@@ -1,9 +1,12 @@
-import express, { Router, Request, Response } from 'express';
-import PatientController from '../controllers/patientController';
+import express from 'express';
+import PatientController from '../controllers/PatientController';
 
-const router: Router = express.Router();
+const router = express.Router();
 
-// Route for creating a new patient
-router.post('/', PatientController.createPatient);
+router.post('/patients', PatientController.createPatient);
+router.get('/patients', PatientController.getPatients);
+router.get('/patients/:id', PatientController.getPatientById);
+router.put('/patients/:id', PatientController.updatePatient);
+router.delete('/patients/:id', PatientController.deletePatient);
 
 export default router;

@@ -1,12 +1,22 @@
 import express, { Application, Request, Response, NextFunction } from 'express';
+import admin from "firebase-admin"
 import bodyParser from 'body-parser';
 import configureCors from './middleware/corsMiddleware';
 import errorMiddleware from './middleware/errorMiddleware';
 import patientRoutes from './routes/patientRoute';
+import dotenv from "dotenv"
+import credentials from "./config/credentials";
 
+dotenv.config()
 const app: Application = express();
 
+// Database 
+admin.initializeApp({
+  credential: admin.credential.cert(credentials)
+})
+
 // Middleware
+app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(configureCors());
 
