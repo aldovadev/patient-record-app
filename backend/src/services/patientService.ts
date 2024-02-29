@@ -4,7 +4,15 @@ import PatientRepository from '../repositories/patientRepository';
 class PatientService {
   static async createPatient(name: string, dateOfTreatment: Date, treatmentDescription: string[], medicationsPrescribed: string[], costOfTreatment: number): Promise<Patient> {
     try {
+      const patients = await PatientRepository.readPatients();
+
+      for (let i = 0; i < patients.length; i++) {
+        if (patients[i].name === name) return patients[i]
+      }
+
+
       const newPatient = await PatientRepository.createPatient(name, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment);
+
       return newPatient;
     } catch (error) {
       console.error('Error creating patient:', error);

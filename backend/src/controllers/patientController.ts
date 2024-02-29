@@ -4,9 +4,16 @@ import PatientService from '../services/patientService';
 class PatientController {
   static async createPatient(req: Request, res: Response): Promise<void> {
     try {
+
       const { name, treatmentDescription, medicationsPrescribed, costOfTreatment } = req.body;
       const dateOfTreatment = new Date(req.body.dateOfTreatment)
       const newPatient = await PatientService.createPatient(name, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment);
+
+      if (name == newPatient.name) {
+        res.status(409).json("already exist");
+        return;
+      }
+
       res.status(201).json(newPatient);
     } catch (error) {
       console.error('Error creating patient:', error);

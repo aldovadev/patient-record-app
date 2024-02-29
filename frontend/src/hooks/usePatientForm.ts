@@ -29,10 +29,9 @@ const usePatientForm = (initialState: any) => {
     }
 
 
-
-
     try {
       await createPatient(payload);
+      setFormData(initialState)
       toast.success('Patient created successfully');
       console.log(payload)
     } catch (error) {
