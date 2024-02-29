@@ -1,7 +1,8 @@
 {
   "name": "carenow-test-app",
   "scripts": {
-    "start:backend": "cd backend && npm run dev",
+    "setup:env": "cd backend && cp .env.example .env",
+    "start:backend": "cd backend && npm start",
     "start:frontend": "cd frontend && npm start",
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
   },

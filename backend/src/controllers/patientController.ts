@@ -1,13 +1,12 @@
 import { Request, Response } from 'express';
-import PatientService from '../services/PatientService';
-import { v4 as uuidv4 } from 'uuid';
+import PatientService from '../services/patientService';
 
 class PatientController {
   static async createPatient(req: Request, res: Response): Promise<void> {
     try {
-      const { name, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment } = req.body;
-      const id = uuidv4();
-      const newPatient = await PatientService.createPatient(name, id, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment);
+      const { name, treatmentDescription, medicationsPrescribed, costOfTreatment } = req.body;
+      const dateOfTreatment = new Date(req.body.dateOfTreatment)
+      const newPatient = await PatientService.createPatient(name, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment);
       res.status(201).json(newPatient);
     } catch (error) {
       console.error('Error creating patient:', error);
@@ -43,7 +42,8 @@ class PatientController {
   static async updatePatient(req: Request, res: Response): Promise<void> {
     try {
       const { id } = req.params;
-      const { name, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment } = req.body;
+      const { name, treatmentDescription, medicationsPrescribed, costOfTreatment } = req.body;
+      const dateOfTreatment = new Date(req.body.dateOfTreatment)
       const updatedPatient = await PatientService.updatePatient(id, name, dateOfTreatment, treatmentDescription, medicationsPrescribed, costOfTreatment);
       if (updatedPatient) {
         res.json(updatedPatient);
