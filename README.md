@@ -30,22 +30,27 @@ cd backend && npm i && npm i -D && cd ..
 cd frontend && npm i && cd ..
 ```
 
-3. Run Backend Only :
+3. Run Setup to Generate .env :
 ```bash
 npm run setup:env
 ```
 
-4. Run Backend Only :
+4. Run Setup to Install Library :
+```bash
+npm run setup:app
+```
+
+5. Run Backend Only :
 ```bash
 npm run start:backend
 ```
 
-5. Run Frontend Only :
+6. Run Frontend Only :
 ```bash
 npm run start:frontend
 ```
 
-6. Run Both Backend and Frontend Concurrently :
+7. Run Both Backend and Frontend Concurrently :
 ```bash
 npm start
 ```
@@ -53,7 +58,11 @@ npm start
 ## Support and Contribution
 Hi there! Thanks for checking out my repository! If you find it useful or interesting, please consider giving it a star. Your support motivates me to continue improving and adding new features. Feel free to explore the code, open issues, or contribute! If you have any questions or suggestions, don't hesitate to reach out. Happy coding! 🚀
 
-## Contact Me
+## Credits
+
+This game is developed by Aldovadev.
+
+
 <p align="left">
 <a href="https://linkedin.com/in/aldovadev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ey afif habibie" height="30" width="40" /></a>
 <a href="https://instagram.com/aldovadev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ey_afif_habibie" height="30" width="40" /></a>
