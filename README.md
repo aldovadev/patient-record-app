@@ -1,18 +1,23 @@
-<h2>Simple Healthcare Treatment Entry System</h2>
-OVERVIEW : Create a basic web application that includes a front-end form using React.js (any UI framework such as ChakraUI, Antd, etc.) and a back-end API. The application's purpose is for medical providers to input details of treatments and medications for patients.
+![Logo](https://pub-056e4acbd9a844059635362ef117f218.r2.dev/logo-small.png)
+# Patient Record App
 
-TECH STACK :
-1. NodeJs
-2. ExpressJs
-3. React
-3. Chakra UI
-4. Firestrore
+The patient record app, developed using Express, React, Chakra UI, and TypeScript, represents a pinnacle of efficiency and precision in healthcare management. By harnessing Express for the backend, the app ensures robustness and reliability in handling data transactions and API requests. React, coupled with TypeScript, empowers the frontend with seamless interactivity and type safety, facilitating a smooth user experience while mitigating potential errors. Chakra UI's sleek and customizable components enhance the app's aesthetics and usability, providing a visually appealing interface for clinicians and administrators alike. With TypeScript's static typing and expressiveness, the app offers enhanced code readability and maintainability, while its integration with Express ensures secure and efficient data management, enabling healthcare professionals to effortlessly access and update patient records, streamline workflows, and ultimately deliver optimal patient care.
 
-## Setup and Installation
-To run the application in your local machine, follow these steps:
-Clone the repository to your machine and install the needed dependencies. We use `npm` to manage our packages, so please make sure it is installed in your local machine.
 
-1. Clone and Open Repository: 
+
+
+
+
+## Tech Stack
+
+**Client:** Typescript
+
+**Client:** React, Chakra UI
+
+**Server:** NodeJs, Express, Firestore
+## Run Locally
+
+Clone and Open Repository: 
   
 ```bash
 git clone https://github.com/aldovadev/carenow-test.git
@@ -20,7 +25,7 @@ git clone https://github.com/aldovadev/carenow-test.git
 cd carenow-test
 ```
 
-2. Install Dependencies and Development Dependencies : 
+Install Dependencies and Development Dependencies : 
   
 ```bash
 npm i -D
@@ -30,42 +35,48 @@ cd backend && npm i && npm i -D && cd ..
 cd frontend && npm i && cd ..
 ```
 
-3. Run Setup to Generate .env :
+Run Setup to Generate .env :
 ```bash
 npm run setup:env
 ```
 
-4. Run Setup to Install Library :
+Run Setup to Install Library :
 ```bash
 npm run setup:app
 ```
 
-5. Run Backend Only :
+Run Backend Only :
 ```bash
 npm run start:backend
 ```
 
-6. Run Frontend Only :
+Run Frontend Only :
 ```bash
 npm run start:frontend
 ```
 
-7. Run Both Backend and Frontend Concurrently :
+Run Both Backend and Frontend Concurrently :
 ```bash
 npm start
 ```
 
-## Support and Contribution
-Hi there! Thanks for checking out my repository! If you find it useful or interesting, please consider giving it a star. Your support motivates me to continue improving and adding new features. Feel free to explore the code, open issues, or contribute! If you have any questions or suggestions, don't hesitate to reach out. Happy coding! 🚀
+## Demo
 
-## Credits
-
-This game is developed by Aldovadev.
+link : https://www.aldovadev.com
 
 
-<p align="left">
-<a href="https://linkedin.com/in/aldovadev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ey afif habibie" height="30" width="40" /></a>
-<a href="https://instagram.com/aldovadev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ey_afif_habibie" height="30" width="40" /></a>
-<a href="https://discord.gg/aldovadev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="habibdev" height="30" width="40" /></a>
-</p>
+## Badges
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at www.aldovadev.com
 
